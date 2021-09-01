@@ -1579,6 +1579,8 @@ Resources:
       Groups:
         - lly-cn-ibu-rapid-cmds-dev-private
 
+        # comment
+
   llycniburapididoctordevprivateiam:
     Type: "AWS::IAM::ManagedPolicy"
     Properties:
@@ -1649,4 +1651,4 @@ Resources:
               - 'arn:aws-cn:s3:::lly-cn-ibu-rapid-ipatient-dev-private'
               - 'arn:aws-cn:s3:::lly-cn-ibu-rapid-ipatient-dev-private/*'
       Groups:
-        - lly-cn-ibu-rapid-ipatient-dev-private
+        - lly-cn-ibu-rapid-ipatient-dev-private5
